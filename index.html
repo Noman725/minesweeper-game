@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💣 Minesweeper</h1>
+        
+        <!-- Game Controls -->
+        <div class="controls">
+            <div class="difficulty-buttons">
+                <button class="diff-btn active" data-level="easy">Easy (9x9)</button>
+                <button class="diff-btn" data-level="medium">Medium (16x16)</button>
+                <button class="diff-btn" data-level="hard">Hard (16x30)</button>
+            </div>
+            
+            <div class="game-stats">
+                <div class="stat">
+                    <span class="icon">💣</span>
+                    <span id="mine-count">10</span>
+                </div>
+                <button id="restart-btn" class="emoji-btn">😊</button>
+                <div class="stat">
+                    <span class="icon">⏱️</span>
+                    <span id="timer">000</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Game Board -->
+        <div id="game-board"></div>
+        
+        <!-- Game Over Modal -->
+        <div id="game-over-modal" class="modal hidden">
+            <div class="modal-content">
+                <h2 id="modal-title">Game Over!</h2>
+                <p id="modal-message"></p>
+                <button id="modal-restart">Play Again</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
