@@ -8,7 +8,7 @@ A classic Minesweeper game built with vanilla JavaScript, HTML, and CSS. Feature
 
 ## 🎮 Play Now
 
-[**Play the Game Here**](https://Noman725.github.io/minesweeper-game/)
+[**Play the Game Here**](https://noman725.github.io/minesweeper-game/)
 
 
 ## ✨ Features
@@ -40,7 +40,7 @@ A classic Minesweeper game built with vanilla JavaScript, HTML, and CSS. Feature
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/minesweeper-game.git
+git clone https://github.com/Noman725/minesweeper-game.git
 ```
 
 2. Navigate to the project folder:
